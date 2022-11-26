@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>7</id>
+		<name>MarkupOnProductByBrand</name>
+		<table_name>markuponproductbybrand</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>7</id>
+			<lid>ru</lid>
+			<name>Наценка на товар по бренду</name>
+		</lang>
+		<lang>
+			<id>7</id>
+			<lid>en</lid>
+			<name>Markup on product by brand</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>88</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_BRAND</field_name>
+			<user_type_id>iblock_element</user_type_id>
+			<xml_id>BRAND</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>5</list_height>
+				<iblock_id>33</iblock_id>
+				<default_value />
+				<active_filter>N</active_filter>
+			</settings>
+			<edit_form_label>
+				<en>Brand</en>
+				<ru>Бренд</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Brand</en>
+				<ru>Бренд</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>89</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_MARKUP</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id>MARKUP</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Markup(%)</en>
+				<ru>Наценка(%)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Markup(%)</en>
+				<ru>Наценка(%)</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+	</fields>
+</hiblock>
